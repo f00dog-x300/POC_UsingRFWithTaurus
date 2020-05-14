@@ -1,0 +1,18 @@
+settings:
+  artifacts-dir: Results/%m_%Y/%m_%d_%Y/Run-%H:%M:%S
+
+
+execution:
+  - executor: robot
+    iterations: 5
+    scenario:
+      variables:
+        BROWSER: Chrome
+        LOG FILE: Results/%m_%Y/%m_%d_%Y/Run-%H:%M:%S/%S.html
+      script: .
+
+modules:
+  robot:
+    interpreter: venv/bin/python3
+    additional-args: -T
+
