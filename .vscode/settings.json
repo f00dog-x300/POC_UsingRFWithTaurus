@@ -1,5 +1,5 @@
 {
-  "robot.language-server.python": "/home/f00dog/Documents/Projects/Python/POCs/POC_UsingTaurusAndRF/venv/bin/python3",
+  "robot.language-server.python": "/usr/bin/python3",
   "files.autoSave": "afterDelay",
 "rfLanguageServer.libraries": [
     "BuiltIn-3.2.1",
