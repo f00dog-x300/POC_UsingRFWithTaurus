@@ -1,5 +1,9 @@
 {
   "robot.language-server.python": "/home/f00dog/Documents/Projects/Python/POCs/POC_UsingTaurusAndRF/venv/bin/python3",
   "files.autoSave": "afterDelay",
-  "rfLanguageServer.libraries": ["BuiltIn-3.2.1", "SeleniumLibrary-4.4.0"]
+"rfLanguageServer.libraries": [
+    "BuiltIn-3.2.1",
+    "SeleniumLibrary-4.4.0"
+],
+"editor.fontSize": 13.75
 }
