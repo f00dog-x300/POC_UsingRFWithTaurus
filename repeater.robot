@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Attempt to make a try and continue function for RF
+Documentation     Attempt to make a try and continue function for RF
 
 *** Keywords ***
 Run keywords several times

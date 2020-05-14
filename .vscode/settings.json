@@ -1,9 +1,6 @@
 {
   "robot.language-server.python": "/usr/bin/python3",
-  "files.autoSave": "afterDelay",
-"rfLanguageServer.libraries": [
-    "BuiltIn-3.2.1",
-    "SeleniumLibrary-4.4.0"
-],
-"editor.fontSize": 13.75
+  "files.autoSave": "onFocusChange",
+  "rfLanguageServer.libraries": ["BuiltIn-3.2.1", "SeleniumLibrary-4.4.0"],
+  "editor.fontSize": 13.75
 }
