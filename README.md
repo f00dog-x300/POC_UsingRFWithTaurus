@@ -19,3 +19,7 @@ Conclusion from this experimentation:
 try to create multiple runs with each consective run giving details about what passed and what failed. However, on each
 run, only 1 report is generated (the last report). If something fails in between, then the report will not be able to
 give much insight. 
+
+
+As an alternative, I'm creating a recipe for running keywords several times under the blazetest.robot file. I will add in a
+fail condition argument if a certain number of failures occur in future.
